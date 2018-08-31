@@ -38,9 +38,8 @@ end
 # Define your play method below
 def play(board)
   count = 0
-  player1 = "X"
-  player2 = "O"
-
+  player = "X"
+  
   while count < 9 do
     turn(board)
     count += 1
