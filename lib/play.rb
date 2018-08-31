@@ -41,7 +41,7 @@ def play(board)
   player = "X"
 
   while count < 9 do
-    turn(board)
+    turn(board, player)
     player = player == "X"? "O" : "X"
     count += 1
   end
