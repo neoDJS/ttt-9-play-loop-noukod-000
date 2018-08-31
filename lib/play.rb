@@ -40,7 +40,7 @@ def play(board)
   count = 0
   player1 = "X"
   player2 = "O"
-  
+
   while count < 9 do
     turn(board)
     count += 1
